@@ -1,0 +1,9 @@
+Feature								ArrayList
+----------------------------------------------------------------
+Data Structure						Dynamic Array
+Allows duplicates					✅
+Maintains order						✅
+Random access						O(1)
+Insert/Delete middle				O(n)
+Thread-safe							❌
+Null allowed						✅ multiple

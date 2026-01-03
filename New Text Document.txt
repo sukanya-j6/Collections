@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class ArrayListReadOperations {
+	public static void main(String[] args) {
+		
+		ArrayList<String> list1 = new ArrayList<>();
+		
+		list1.add("JAVA");
+		list1.add("Angular");
+		list1.add(1, "SpringBoot");
+		
+		// retreive element
+		String value = list1.get(0);
+		
+		// Size
+		int size = list1.size();
+		
+		
+		// check
+		boolean isContains = list1.contains("JAVA");
+		
+		// lookup
+		int index = list1.indexOf("Angular");
+		int lastIndex = list1.lastIndex("Angular");
+	}
+}
